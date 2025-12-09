@@ -1,0 +1,82 @@
+body{
+  font-family: Arial;
+  background:#f7f5ff;
+  font-size:18px;
+  color:#222;
+}
+
+/* Navigation */
+nav{
+  background:#ff3a4a;
+  color:white;
+  padding:15px;
+  font-size:20px;
+}
+nav a{
+  color:rgb(255, 255, 255);
+  margin-right:15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* Headings */
+h1,h2,h3{
+  color:#000000;
+}
+
+/* About image */
+.profile{
+  width:180px;
+  border-radius:15px;
+}
+
+/* Skills cards */
+.skills-container{
+  display:flex;
+  gap:25px;
+  margin-top:20px;
+}
+.card{
+  background:#e4f834;
+  padding:25px;
+  border:2px solid #3a47ff;
+  width:180px;
+  border-radius:10px;
+  font-size:16px;
+}
+
+/* Contact form */
+input,textarea{
+  width:250px;
+  padding:8px;
+  margin-bottom:12px;
+  border:1px solid #aaaaaa;
+  border-radius:6px;
+}
+button{
+  background:#ffc13a;
+  color:white;
+  padding:10px 15px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+button:hover{
+  background:#000003;
+}
+/* Hover effect */
+nav a:hover{
+  background:#ffffff;
+  color:#000000;
+  padding:8px;
+  border-radius:6px;
+}
+
+/* Active page effect */
+nav a.active{
+  background:#ffffff;
+  color:#040120;
+  padding:8px;
+  border-radius:6px;
+}
+
