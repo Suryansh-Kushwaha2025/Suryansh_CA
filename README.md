@@ -1,1 +1,1 @@
-# Suryansh_CA
+This is a beginner multi-page student portfolio website built using only HTML and basic CSS including a navigation bar, about page, skills page, and a contact form. It was created as a college assignment following the given instructions including flexbox, forms, and card layout.
